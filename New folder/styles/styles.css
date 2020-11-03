@@ -126,7 +126,7 @@ dd {
 
 #nav-links{
     font-family: 'Lato', sans-serif;
-    font-size: 300;
+    font-size: 15.86px;
     color: white;
     display: flex;
     flex-direction: row;
@@ -189,9 +189,9 @@ padding-bottom: 125px;
 display: flex;
 flex-direction: column;
 align-items: center;
-margin-left: 
 
-;
+
+
   
 }
 
@@ -604,7 +604,7 @@ margin-top: 5px;
   justify-content: space-evenly;
   align-items: center;
   flex-direction: column;
-  padding-right: ;
+  
 
 }
 
@@ -731,7 +731,7 @@ color: #fff;
   border-left:1px solid  #E5E5E5;
   
  font-weight: 300 !important;
-  font-size: 16;
+  font-size: 16px;
   color: gray;
   background-color: white;
   float: right;
@@ -747,7 +747,7 @@ color: #fff;
   border-left:1px solid  #E5E5E5;
   
  font-weight: 300 !important;
-  font-size: 16;
+  font-size: 16px;
   color: gray;
   background-color: white;
   float: right;
@@ -763,7 +763,7 @@ color: #fff;
   border-left:1px solid  #E5E5E5;
   
  font-weight: 300 !important;
-  font-size: 16;
+  font-size: 16px;
   color: gray;
   background-color: white;
   float: right;
@@ -849,7 +849,7 @@ color: #fff;
   font-family: 'Lato', sans-serif;
   font-weight: 300 !important;
   font-size: 14px;
-  margin-right: ;
+ 
 }
 
 .div {
@@ -905,44 +905,143 @@ color: #fff;
 .component-8 {
   width:100%;
   height:1435px;
-  background-color: #F9FAFB;
+
   min-width: 1700px;
-  background-color: red;
+
+  padding-bottom: 101px;
+  padding-top: 92px;
+  padding-left: 375px;
+  padding-right: 375px;
+  background-color: #F9FAFB;
+  min-width: 1400px;
+  display: flex;
+  align-content: center;
+  flex-direction: column;
 }
-.component-8-main{
-  width: 61% ;
-  height:108px ;
+.coponent-8-main{
+  
+  height:1108px ;
+  
+  max-width: 1200px;
+  min-width: 1200px;
+ 
+ display: flex;
+ flex-direction: row;
+flex-wrap: wrap;
+justify-content: space-between;
+align-content: space-between;
   
 }
+
 .component-8-header
 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
- display: flex;
-flex-direction: column;
+.component-8-header-1
+{
+  font-size: 30px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 900 ;
+  letter-spacing: 2.7px;
+}
+.component-8-header-2
+{
+  font-size: 16px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400 ;
+  color: #A1B1BC;
+  margin-bottom: 70px;
+  margin-top: 10px;
+  letter-spacing: 2px;
+  
+}
+.item-box
+{
+  width: 270px;
+  height: 539px;
+  display: flex;
+  flex-direction: column;
+ 
+  background-color: white !important;
+  border :1px solid lightgrey;
+}
+.item-pic{
+  width: 270px;
+  height: 270px;
+  border-bottom:1px solid lightgray;
+
+}
+.item-text
+{
+  width: 270px;
+  height: 270px;
+  display: flex;
+  flex-direction: column;
+  padding-right: 19px;
+  padding-left: 19px;
+  padding-top: 2px;
+  padding-bottom: 20.1px;
+  justify-content: space-evenly;
+}
+.item-header
+{
+  font-size: 18px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 900;
+  letter-spacing: 2px;
+  
+  
+ 
+  
+}
+
+.item-header2
+{ font-size: 14px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400 ;
+  color: #A1B1BC;
+  
+  letter-spacing: 1.5px;
+}
+.line-2
+{
+  height: 1px;
+  border-top: solid 1px  lightgray;
+}
+.item-body
+{
+  font-size: 14px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400 ;
+  color: #A1B1BC;
+  
+  letter-spacing: 1.5px;
+  text-align: justify;
+  line-height: 1.4em;
+  margin-top: 14px;
+}
+.item-foter
+{
+width: 230px;
+height: 40px;
+border-radius: 5px;
+background: #fff;
+border: 2px solid #2c3e50;
+font-size: 14px;
+font-family: 'Lato', sans-serif;
+font-weight: bold ;
+letter-spacing: 1.5px;
+display: flex;
 justify-content: center;
 align-items: center;
+
 }
-.xeader1
+.item-foter:hover
 {
-  font-family: 'Lato', sans-serif;
-  font-weight: 400;
-  font-size: 30px;
-  letter-spacing: 0.1em;
-  line-height: 40px;
-  text-align: left;
-  color: #2c3e50;
+  background-color: #1ABC9C;
+  color: white;
 }
-.xeader2{
-  font-family:'Lato', sans-serif;
-font-weight: 300;
-font-size: 18px;
-letter-spacing: 0.05em;
-line-height: 60px;
-text-align: center;
-color: #a1b1bc;
-
-}
-
-
-
-
